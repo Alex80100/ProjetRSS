@@ -1,0 +1,85 @@
+body {
+    margin:0;
+    min-height: 100%;
+    font-family: 'Dancing Script', cursive;
+
+}
+.containernav{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
+    background-color: transparent;
+}
+.logo{
+    width: 13%;
+    position: fixed;
+}
+.navbar {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    height: 150px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+li {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px 0 10px 0;
+   
+ 
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 25px;
+    color: black;
+   
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.containerform{
+    display: flex;
+    justify-content: center;
+}
+.formulaire{
+    border: solid 1px;
+    height: 30vh;
+    width: 65%; 
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.273); 
+    margin-bottom: 20px;
+   
+}
+
+.formulaire input {
+    margin: 20px 25px; 
+  
+    
+}
+.dark {
+    margin-top: 20px;
+}
+.footer{
+    height: 25vh;
+    display: flex;
+}
+.logofooter{
+    height: 100%;
+    width: 35%;
+}
+h2 {
+display: flex;
+align-items: center;
+}
