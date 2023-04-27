@@ -1,10 +1,12 @@
 <?php
 include __DIR__ . '/herlpers/dd.php';
-$url = 'https://rmcsport.bfmtv.com/rss/football/';
+$url = 'https://rmcsport.bfmtv.com/rss/tennis/';
 $xml = simplexml_load_file($url);
-$items = $xml->channel->item->enclosure['url'];
-$img = $xml->channel->item->enclosure['url'];
-
+$items = $xml->channel->item;
+$link = $items->link;
+$description = $items->description;
+d($items);
+d($link);
 ?>
 
 <!DOCTYPE html>
@@ -29,13 +31,13 @@ $img = $xml->channel->item->enclosure['url'];
                     <p><?= $item->pubDate ?></p>
                 </div>
                 <div class="image">
-                    <img src="" alt="">
+                    <img src="<?= $item->enclosure['url']?>" alt="">
                 </div>
                 <div class="description">
-                    <p></p>
+                    <p><?= strip_tags($item->description)  ?></p>
                 </div>
                 <div class="btn">
-                    <input type="submit" value="Valider">
+                <a href="<?php echo $link; ?>" target="_blank"><button>En savoir plus</button></a>
                 </div>
             </div>
         <?php } ?>
