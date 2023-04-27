@@ -37,7 +37,7 @@ d($link);
                     <p><?= strip_tags($item->description)  ?></p>
                 </div>
                 <div class="btn">
-                <a href="<?php echo $link; ?>" target="_blank"><button>En savoir plus</button></a>
+                <a href="<?php echo $item->link; ?>" target="_blank"><button>En savoir plus</button></a>
                 </div>
             </div>
         <?php } ?>
