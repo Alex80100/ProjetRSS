@@ -12,17 +12,16 @@ define('CHOICES', [
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $choiceUser = filter_input(INPUT_POST, 'choice', FILTER_SANITIZE_URL,FILTER_REQUIRE_ARRAY);
 
-    foreach (CHOICES as $key => $value) {
+    $error= false;
+    foreach ($choiceUser as $key => $value) {
         if (in_array($value, CHOICES) == false) {
-            echo 'erreur';
+            $error = true;
         }
     }
 
-        setcookie('cookieFootball', $value, (time() + 86400));
-        setcookie('cookieRugby', $value, (time() + 86400));
-        setcookie('cookieBasket', $value, (time() + 86400));
-        setcookie('cookieTennis', $value, (time() + 86400));
-        setcookie('cookieFormule1', $value, (time() + 86400));
+    // Envoie des cookies dans le serveur 
+        setcookie('cookieChoices',json_encode($choiceUser) , (time() + 86400));
+
     }
 
 ?>
