@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/public/assets/css/style.css">
   <title>projetRSS</title>
 </head>
@@ -22,11 +22,10 @@
 
     <nav class="navbar">
       <ul>
-        <li><a href="">Foot</a></li>
-        <li><a href="">Rugby</a></li>
-        <li><a href="">Basket</a></li>
-        <li><a href="">Tennis</a></li>
-        <li><a href="">Formule 1</a></li>
+        <li><a href="">choix 1</a></li>
+        <li><a href="">choix 2</a></li>
+        <li><a href="">choix 3</a></li>
+        <li><a href="">Préférence</a></li>
       </ul>
     </nav>
   </div>

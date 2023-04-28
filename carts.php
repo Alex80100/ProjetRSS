@@ -13,22 +13,18 @@
         <div class="carts">
             <div class="title">
                 <h3></h3>
-                <div class="image">
-                    <img src="" alt="">
-                    <div class="description">
-                        <p></p>
-                        <div class="btn">
-                        <input type="submit" value="Valider">
-
-
-                        </div>
-                    </div>
-                </div>
             </div>
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="description">
+                <p></p>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Valider">
 
-        </div>
-
-    </div>
+            </div>
+     </div>
 
 </body>
 
