@@ -13,12 +13,12 @@
 </head>
 
 <body>
-  <!------------------------- header------------------------------ -->
-  <!-------------------------LOGO------------------------------ -->
-  <img class="logo" src="public/assets/img/LOGO projetRSS.png" alt="Logo">
-  <!------------------------- Navbar------------------------------ -->
+    <!------------------------- header------------------------------ -->
+    <!-------------------------LOGO------------------------------ -->
+    <img class="logo" src="public/assets/img/LOGO projetRSS.png" alt="Logo">
+    <!------------------------- Navbar------------------------------ -->
 
-  <div class="containernav">
+    <div class="containernav">
 
     <nav class="navbar">
       <ul>
@@ -32,53 +32,53 @@
   <!------------------------- Fin de Navbar------------------------------ -->
   <!-------------------------Formulaire------------------------------ -->
 
-  <form>
-    <h1>Vos préferences:</h1>
-    <!-- <div class="containerform"> -->
-    <div class="containerform">
-      <div class="formulaire">
-        <!-- <div> -->
-        <input type="checkbox" id="sport" name="sport">
-        <label for="sport">Foot</label>
-        <!-- </div> -->
+    <form>
+        <h1>Vos préferences:</h1>
+        <!-- <div class="containerform"> -->
+        <div class="containerform">
+            <div class="formulaire">
+                <!-- <div> -->
+                <input type="checkbox" id="sport" name="sport">
+                <label for="sport">Foot</label>
+                <!-- </div> -->
 
-        <!-- <div> -->
-        <input type="checkbox" id="sport" name="sport">
-        <label for="horns">Rugby</label>
-        <!-- </div> -->
-        <!-- <div> -->
-        <input type="checkbox" id="sport" name="sport">
-        <label for="sport">Basket</label>
-        <!-- </div> -->
-        <!-- <div> -->
-        <input type="checkbox" id="sport" name="sport">
-        <label for="sport">Tennis</label>
-        <!-- </div> -->
-        <!-- <div> -->
-        <input type="checkbox" id="sport" name="sport">
-        <label for="sport">Formule1</label>
-        <!-- </div> -->
-        <div class="dark">
-          <legend>Dark mode:</legend>
-
-
-          <input type="radio" id="dark" name="dark" value="dark">
-          <label for="dark">Oui</label>
+                <!-- <div> -->
+                <input type="checkbox" id="sport" name="sport">
+                <label for="horns">Rugby</label>
+                <!-- </div> -->
+                <!-- <div> -->
+                <input type="checkbox" id="sport" name="sport">
+                <label for="sport">Basket</label>
+                <!-- </div> -->
+                <!-- <div> -->
+                <input type="checkbox" id="sport" name="sport">
+                <label for="sport">Tennis</label>
+                <!-- </div> -->
+                <!-- <div> -->
+                <input type="checkbox" id="sport" name="sport">
+                <label for="sport">Formule1</label>
+                <!-- </div> -->
+                <div class="dark">
+                    <legend>Dark mode:</legend>
 
 
-          <input type="radio" id="dark" name="dark" value="dark">
-          <label for="dark">Non</label>
-  </form>
-  </div>
-  </div>
-  </div>
-  <!------------------------- Fin de formulaire------------------------------ -->
-  <!------------------------- Footer------------------------------ -->
-  <div class="footer">
+                    <input type="radio" id="dark" name="dark" value="dark">
+                    <label for="dark">Oui</label>
 
-    <img class="logofooter" src="public/assets/img/LOGO projetRSS.png" alt="">
-    <h2>C'EST LA PASSION QUI PARLE</h2>
-  </div>
+
+                    <input type="radio" id="dark" name="dark" value="dark">
+                    <label for="dark">Non</label>
+    </form>
+    </div>
+    </div>
+    </div>
+    <!------------------------- Fin de formulaire------------------------------ -->
+    <!------------------------- Footer------------------------------ -->
+    <div class="footer">
+
+        <img class="logofooter" src="public/assets/img/LOGO projetRSS.png" alt="">
+        <h2>C'EST LA PASSION QUI PARLE</h2>
+    </div>
 
 
 
