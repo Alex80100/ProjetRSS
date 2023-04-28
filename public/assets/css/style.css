@@ -1,26 +1,30 @@
 body {
     margin:0;
     min-height: 100%;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .containernav{
     display: flex;
     flex-direction: row-reverse;
     height: 100px;
-    background-color: transparent;
+   
 }
 .logo{
-    width: 13%;
+    width: 10%;
     position: fixed;
+    top: 0;
+
 }
 .navbar {
     display: flex;
     justify-content: end;
-    position: fixed;
     height: 150px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
     
 }
-ul{
+.navbar ul{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -28,24 +32,28 @@ ul{
     cursor: pointer;
 
 }
-li {
+.navbar li {
     margin-left: 25px;
     margin-right: 25px;
     padding: 10px 0 10px 0;
+    
    
  
 }
-a{
+.navbar a{
     list-style: none;
     text-decoration: none;
     margin-top: 25px;
     color: black;
+    
    
     
 }
-h1{
+/* h1{
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 .containerform{
     display: flex;
@@ -69,16 +77,32 @@ h1{
 }
 .dark {
     margin-top: 20px;
+} */
+
+h2 {
+display: flex;
+align-items: center;
 }
 .footer{
     height: 25vh;
     display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+   
 }
-.logofooter{
+.logofooter img{
     height: 100%;
-    width: 35%;
+    width: 25%;
+    
 }
-h2 {
-display: flex;
-align-items: center;
+.mention  {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   
+    
+}
+.mention p{
+    margin: 10px;
 }
