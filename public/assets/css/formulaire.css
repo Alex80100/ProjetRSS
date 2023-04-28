@@ -1,0 +1,29 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.containerform{
+    display: flex;
+    justify-content: center;
+}
+.formulaire{
+    border: solid 1px;
+    height: 30vh;
+    width: 65%; 
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.273); 
+    margin-bottom: 20px;
+   
+}
+
+.formulaire input {
+    margin: 20px 25px; 
+  
+    
+}
+.dark {
+    margin-top: 20px;
+}

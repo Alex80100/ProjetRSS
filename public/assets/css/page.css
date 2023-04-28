@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(215, 205, 205);
+    font-family:'Roboto',sans-serif;
+   
+}
+.logo{
+    width: 13%;
+    position: fixed;
+}
+.containerCarts{
+    width:100%;  
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content: left; */
+    justify-content: center;
+   
+
+    
+    
+}
+.cartsActu{
+    width: 20%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    height: 90vh;
+    padding: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    height: 15%;
+   
+}
+
+
+.image img {
+    width: 100%;
+    height: 20%;
+
+}
+
+.descriptionActu{
+    height: 40%;
+    overflow: hidden ;
+}
+.button {
+  text-align: right;
+  /* padding: 3px; */
+
+
+}
+.button a {
+   
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+
+
+    
+
+}
