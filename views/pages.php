@@ -15,7 +15,7 @@
                 <p><?= strip_tags($item->description)  ?></p>
             </div>
             <div class="button ">
-                <a href="<?php echo $item->link; ?>" target="_blank">en savoir plus</a>
+                <a href="<?php echo $item->link; ?>" target="_blank">En savoir plus</a>
             </div>
         </div>
     <?php } ?>

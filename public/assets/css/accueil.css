@@ -10,12 +10,6 @@ body {
     height: 100px;
     background-color: transparent;
     margin: 0;
-   
-    
-    
-    
- 
-   
 }
 .logo{
     width: 13%;
@@ -28,9 +22,6 @@ body {
     position: fixed;
     height: 150px;
     margin: 0;
-   
-   
-    
 }
 .navbar ul{
     display: flex;
@@ -40,36 +31,28 @@ body {
     cursor: pointer;
     
     
-   
+    
 }
 .navbar li {
     margin-left: 25px;
     margin-right: 25px;
     padding: 10px 0 10px 0;
-    
-
-   
- 
 }
 .navbar a{
     list-style: none;
     text-decoration: none;
     margin-top: 25px;
     color: black;
-    
-    
-    
-  
 }
 .containerActu {
     width: 100%;
     height: 80vh;
     margin-left: 15px;
     margin: 0;
-
 }
 .title{
 }
+
 h2{
     display: flex;
     justify-content: center;
@@ -84,7 +67,6 @@ width: 100%;
     justify-content: center;
     /* background-color: beige; */
     
-
     /* margin: 5px; */
 
 }
@@ -93,7 +75,6 @@ width: 100%;
     width: 25%;
     /* margin-left: 20px; */
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-   
 }
 .title2{
     /* border: solid 1px black; */
@@ -108,7 +89,6 @@ h3{
 .imageActu{
     /* border: solid 1px black; */
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-   
 }
 .actuImage{
     height: 100%;
@@ -119,12 +99,10 @@ h3{
     height: 40vh;
 }
 .btn{
-   display: flex;
-   justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end; 
     align-items: end;  
     width: 100%;
-   
-  
 }
 .btnSuite{
     border-radius: 30px;
@@ -155,19 +133,15 @@ h3{
     height: 40vh;
 }
 .btn2{
-   display: flex;
-   justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end; 
     align-items: end;  
     width: 100%;
-   
-  
 }
 .btnSuite2{
     border-radius: 30px;
     background-color: black;
     color: white;
-    
-
 }
 .cartsActu3{
     height: 90vh;
@@ -191,12 +165,10 @@ h3{
     height: 40vh;
 }
 .btn3{
-   display: flex;
-   justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end; 
     align-items: end;  
     width: 100%;
-   
-  
 }
 .btnSuite3{
     border-radius: 30px;
