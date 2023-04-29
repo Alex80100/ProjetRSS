@@ -10,9 +10,9 @@ define('CHOICES', [
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $choiceUser = filter_input(INPUT_POST, 'choice', FILTER_SANITIZE_URL,FILTER_REQUIRE_ARRAY);
+    $choiceUser = filter_input(INPUT_POST, 'choice', FILTER_SANITIZE_URL, FILTER_REQUIRE_ARRAY);
 
-    $error= false;
+    $error = false;
     foreach ($choiceUser as $key => $value) {
         if (in_array($value, CHOICES) == false) {
             $error = true;
@@ -20,9 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Envoie des cookies dans le serveur 
-        setcookie('cookieChoices',json_encode($choiceUser) , (time() + 86400));
-
-    }
+    setcookie('cookieChoices', json_encode($choiceUser), (time() + 86400));
+}
 
 ?>
 
@@ -63,9 +62,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <!-- <div class="containerform"> -->
         <div class="containerform">
             <div class="formulaire">
-                <?php foreach (CHOICES as $key => $value) { ?>  <!-- Affichage des checkboxs -->
-                    <input type="checkbox" id="sport" name="choice[]" value="<?= $value?>">
-                    <label for="sport"><?= $key  ?></label> 
+                <?php foreach (CHOICES as $key => $value) { ?> <!-- Affichage des checkboxs -->
+                    <input type="checkbox" id="sport" name="choice[]" value="<?= $value ?>">
+                    <label for="sport"><?= $key  ?></label>
                     <?= $error['sport'] ?? '' ?> <!-- Affichage du message d'erreur si condition non respecté -->
                 <?php } ?>
 
