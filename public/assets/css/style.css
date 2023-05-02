@@ -11,13 +11,14 @@ body {
 }
 .logo{
     width: 10%;
+    display: flex;
+    flex-wrap: wrap;
     position: fixed;
     top: 0;
 
 }
 .navbar {
     display: flex;
-    justify-content: end;
     height: 150px;
     overflow: hidden;
     position: fixed;
@@ -26,7 +27,7 @@ body {
 }
 .navbar ul{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     list-style: none;
     margin-left: 25px;
     cursor: pointer;
@@ -37,8 +38,6 @@ body {
     margin-right: 25px;
     padding: 10px 0 10px 0;
     
-   
- 
 }
 .navbar a{
     list-style: none;

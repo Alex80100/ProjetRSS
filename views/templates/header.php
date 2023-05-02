@@ -19,12 +19,13 @@
 <body>
      <!------------------------- header------------------------------ -->
     <!-------------------------LOGO------------------------------ -->
-    <img class="logo" src="/public/assets/img/LOGO projetRSS.png" alt="Logo">
     <!------------------------- Navbar------------------------------ -->
 
     <div class="containernav">
 
         <nav class="navbar">
+        <img class="logo" src="/public/assets/img/infosport.png " alt="Logo">
+
             <ul>
                 <li><a href="">choix 1</a></li>
                 <li><a href="">choix 2</a></li>
