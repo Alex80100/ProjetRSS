@@ -3,8 +3,8 @@ $_COOKIE['cookieChoices'];
 $userChoices = $_COOKIE['cookieChoices'];
 
 foreach (str_split($userChoices,length:3) as $key => $value) {
-    var_dump(str_split($userChoices,length:3));
-    echo $value;
+    // var_dump(str_split($userChoices,length:3));
+    // echo $value;
 }
 ?>
 
